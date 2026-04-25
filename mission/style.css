@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans;
+}
+
+#content {
+    width: 475px;
+}
+
+#heading {
+    text-align: center;  
+    letter-spacing: 2px; 
+}
+
+h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: rgb(120, 159, 231);
+    font-size: 11px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+hr {
+    margin-top: 0;
+}
+
+main {
+    line-height: 1.3em;
+}
+
+li {
+    padding: 10px 0;
+}
+img {
+    width: 120px;
+    margin-top: 20px;
+}
+
+#logo {
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+} 
