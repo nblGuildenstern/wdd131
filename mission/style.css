@@ -4,8 +4,15 @@ body {
     font-family: sans;
 }
 
+select {
+    height: 20px;
+}
+
 #content {
     width: 475px;
+    border: 1px solid black;
+    padding: 40px;
+    margin: 80px;
 }
 
 header {
@@ -21,7 +28,7 @@ h1 {
 h3 {
     color: rgb(120, 159, 231);
     font-size: 11px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     text-transform: uppercase;
 }
 
