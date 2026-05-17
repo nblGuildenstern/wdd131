@@ -40,6 +40,10 @@ section {
 nav a {
     padding: 20px;
     color: white;
+    display: block;
+    text-align: center;
+}
+.hide {
     display: none;
 }
 nav a:hover {
@@ -76,12 +80,6 @@ dialog {
     #gallery {
         grid-template-columns: 1fr 1fr;
     }
-    .menu-btn {
-        display: none;
-    }
-    nav a {
-        display: inline;
-    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -95,6 +93,19 @@ dialog {
     .close-viewer {
         position: absolute;
         right: 15vh;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+    nav a {
+        all: unset;
+        display: inline;
+        padding: 20px;
+        color: white;
+    }
+    .hide {
+        display: inline;
     }
 }
           
