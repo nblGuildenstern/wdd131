@@ -24,7 +24,7 @@ nav ul {
     justify-content: end;
     gap: 30px;
     padding: 0 40px 0 0;
-    margin: 0;
+    margin: 15px;
 }
 nav a {
     text-decoration: none;
@@ -85,10 +85,8 @@ hr {
         grid-template-columns: 180px 1fr;
         column-gap: 40px;
         position: relative;
+        border-top: none;
     }
-
-    /* keep all details on left */
-
     .date,
     .age,
     .genre,
@@ -96,17 +94,11 @@ hr {
         grid-column: 1;
         justify-self: end;
     }
-
-    /* right side content */
-
     .book-review h2,
     .book-review img,
     .description {
         grid-column: 2;
     }
-
-    /* divider */
-
     .book-review::before {
         content: "";
         position: absolute;
