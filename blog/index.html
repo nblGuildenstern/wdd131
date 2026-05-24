@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Read For Fun</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Kids Read For Fun</h1>
-        <nav>
+        <hr>
+        <nav aria-label="main menu">
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Archive</a></li>
                 <li><a href="#">Search</a></li>
             </ul>
         </nav>
+        <hr>
     </header>
+
     <main class="blog-layout">
         <article class="book-review">
-            <div class="book-details">
-                <p>July 8, 2022</p>
-                <p>10-14</p>
-                <p>Fantasy</p>
-                <p><span aria-label="4 out of 5 stars" role="img">⭐⭐⭐⭐</span></p>
-            </div>
-            <div class="book-content">
-                <h2>Septimus Heap Book One: Magyk</h2>
-                <img src="images/Magkycover2.jpg" alt="Cover of Septimus Heap Book One: Magyk by Angie Sage">
-                <p> If you enjoy stories about wizards and magic, this is the book for you.
-                </p>
-            </div>
-        </article>
+
+    <p class="date">July 5, 2022</p>
+    <p class="age">10-14</p>
+    <p class="genre">Fantasy</p>
+
+    <p class="rating">
+        <span aria-label="4 out of 5 stars" role="img">⭐⭐⭐⭐</span>
+    </p>
+
+    <h2>Septimus Heap Book One: Magyk</h2>
+
+    <img src="images/Magkycover2.jpg"
+         alt="Cover of Septimus Heap Book One: Magyk by Angie Sage">
+
+    <p class="description">
+        If you enjoy stories about seventh sons of seventh sons
+        and magyk this is the book for you.
+    </p>
+
+</article>
     </main>
 </body>
 </html>
