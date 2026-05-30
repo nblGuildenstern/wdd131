@@ -99,6 +99,14 @@ hr {
     .description {
         grid-column: 2;
     }
+    .book-review h2 {
+        grid-row: 1/3;
+        margin: 0;
+    }
+    .book-review img {
+        grid-row: 2/6;
+        margin: 20px 0;
+    }
     .book-review::before {
         content: "";
         position: absolute;
