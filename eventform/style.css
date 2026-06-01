@@ -1,7 +1,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background:  #cfe0cf;
+  background:  #c4d0e2;
   margin: 0;
 }
 
@@ -26,24 +26,27 @@ form {
 }
 
 .full {
-  grid-column: 1 / 3;
+    grid-column: 1 / 3;
 }
 
 input,
-select,
-button {
+select {
+  border-radius: 3px;
+  border-width: 1px;
   padding: 0.6rem;
   font: inherit;
 }
 
 button {
-  background: #cfe0cf;
+  background: #c4d0e2;
   transition: background 0.5s ease;
   margin-top: 10px;
+  padding: 0.6rem;
+  font: inherit;
 }
 
 button:hover {
-  background: #dcead9;
+  background: #d1dcec;
 }
 
 #iNumContainer[hidden], #codeContainer[hidden] {
